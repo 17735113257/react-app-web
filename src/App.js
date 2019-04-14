@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './App.css'
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
+import '../node_modules/antd-mobile/dist/antd-mobile.css'
 import Login from './components/login'
 import Home from './components/home'
 class App extends Component {
@@ -9,9 +10,6 @@ class App extends Component {
       <div>
         <Router>
           <div>
-            <Link to="/login">login</Link>
-            <Link to="/">Home</Link>
-            <hr />
             <Switch>
               <Route path="/login" component={Login} />
               <Route path="/" component={Home} />

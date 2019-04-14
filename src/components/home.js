@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import { borwserRouter as Router, Link, Ruote } from 'react-router-dom'
+// import React, { Component } from 'react'home.js
+import React from 'react'
 function Home() {
   return <div>Home</div>
 }
